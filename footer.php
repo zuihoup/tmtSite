@@ -91,8 +91,8 @@
             <div class="col-md-4 col-xl-3">
               <h5>Links</h5>
               <ul class="nav-list">
-                <li><a href="https://www.mapmarketing.co.jp/">Map marketing Japan</a></li>
-                <li><a href="https://www.terramap-asia.com/thai-product/">Terramap Thailand</a></li>
+                <li><a href="https://www.mapmarketing.co.jp/"target="_blank">Map marketing Japan</a></li>
+                <li><a href="https://www.terramap-asia.com/thai-product/"target="_blank">Terramap Thailand</a></li>
                 <li><a href="#">Test</a></li>
                 <li><a href="#">Test</a></li>
                 <li><a href="#">Test</a></li>
