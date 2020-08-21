@@ -1,4 +1,4 @@
-<?php
+ <?php
 /**
  * The header for our theme
  *
@@ -57,11 +57,11 @@
                         About us
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Philosophy</a>
-                        <a class="dropdown-item" href="#">Profile</a>
-                        <a class="dropdown-item" href="#">CEO msg.</a>
-                        <a class="dropdown-item" href="#">History</a>
-                        <a class="dropdown-item" href="#">Access</a>
+                        <a class="dropdown-item" href="http://localhost/tmt/about/">Philosophy</a>
+                        <a class="dropdown-item" href="http://localhost/tmt/about/">Profile</a>
+                        <a class="dropdown-item" href="http://localhost/tmt/about/#ceoMsg">CEO msg.</a>
+                        <a class="dropdown-item" href="http://localhost/tmt/about/">History</a>
+                        <a class="dropdown-item" href="http://localhost/tmt/about/">Access</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -86,3 +86,6 @@
     <div class="banner">
         <img src="https://www.terramap-asia.com/thai-product/wp-content/themes/terramap/images/map_20190208.jpg" >
     </div>
+    <!-->
+    98d95a9
+    <!-->
