@@ -11,53 +11,6 @@
 
 ?>
 
-	</div><!-- #content -->
-
-	<footer id="colophon" class="site-footer text-center bg-white mt-4 text-muted">
-
-		<section class="footer-widgets text-left">
-			<div class="container">
-				<div class="row">
-					<?php if ( is_active_sidebar( 'footer-1' ) ) : ?>
-						<div class="col">
-							<aside class="widget-area footer-1-area mb-2">
-								<?php dynamic_sidebar( 'footer-1' ); ?>
-							</aside>
-						</div>
-					<?php endif; ?>
-
-					<?php if ( is_active_sidebar( 'footer-2' ) ) : ?>
-						<div class="col">
-							<aside class="widget-area footer-2-area mb-2">
-								<?php dynamic_sidebar( 'footer-2' ); ?>
-							</aside>
-						</div>
-					<?php endif; ?>
-
-					<?php if ( is_active_sidebar( 'footer-3' ) ) : ?>
-						<div class="col">
-							<aside class="widget-area footer-3-area mb-2">
-								<?php dynamic_sidebar( 'footer-3' ); ?>
-							</aside>
-						</div>
-					<?php endif; ?>
-
-					<?php if ( is_active_sidebar( 'footer-4' ) ) : ?>
-						<div class="col">
-							<aside class="widget-area footer-4-area mb-2">
-								<?php dynamic_sidebar( 'footer-4' ); ?>
-							</aside>
-						</div>
-					<?php endif; ?>
-				</div>
-				<!-- /.row -->
-			</div>
-		</section>
-
-
-		<!-- /.container -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
 <div class="footer">
 <!------ Include the above in your HEAD tag ---------->
 
@@ -66,9 +19,30 @@
           <div class="row row-30">
             <div class="col-md-4 col-xl-5">
               <div class="pr-xl-4">
-                <p>＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝何がかっこいい一言＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝</p>
+                <p style="text-align:center;" id="quote">เราจะพยายามอย่างต่อเนื่องเพื่อนำเสนอ Business Mapping ใหม่ๆในฐานะบริษัทชั้นนำด้าน GIS ในการทำการตลาดด้านพื้นที่เราจะทำงานอย่างสุดความสามารถเพื่อมอบ Discovery & Value ใหม่ๆให้แก่ลูกค้า</p>
+                    <script>
+                        var language = {
+                            eng: {
+                                quote: "TerraMap Thailand is Geo Marketing GIS. We support your location evaluation with Map × Data. We will continue various challenges to suggest new ideas of business mapping for our customers. As a leading company of Geo Marketing GIS field, we work with the best to provide new Discovery & Value to our customers."
+                            },
+                            th: {
+                                quote: "เราจะพยายามอย่างต่อเนื่องเพื่อนำเสนอ Business Mapping ใหม่ๆในฐานะบริษัทชั้นนำด้าน GIS ในการทำการตลาดด้านพื้นที่เราจะทำงานอย่างสุดความสามารถเพื่อมอบ Discovery & Value ใหม่ๆให้แก่ลูกค้า"
+                            },
+                            jp: {
+                                quote:"TerraMap ThailandはエリアマーケティングGISです。 「地図 × データ」で貴社の立地評価をサポートいたします。 新しい発想のビジネスマッピングのご提案をさせていただくために、 さまざまな挑戦を続けております。 エリアマーケティングGIS業界のリーディングカンパニーとして、 常に新しい「発見」と「価値」をお客様にご提供いたします。"
+                            }
+                        };
+                        if (window.location.hash) {
+                            if (window.location.hash === "#eng") {
+                                quote.textContent = language.eng.quote;
+                            }
+                            if (window.location.hash === "#jp") {
+                                quote.textContent = language.jp.quote;
+                            }
+                        }
+                    </script>
                 <!-- Rights-->
-                <p class="rights"><span>©Copyright©Map Marketing Co., Ltd. All Right Reserved.</p>
+                <p class="rights" style="text-align:center;"><span>©Copyright©Map Marketing Co., Ltd. All Right Reserved.</p>
               </div>
             </div>
             <div class="col-md-4">
@@ -78,12 +52,12 @@
                 <dd>54 BB Building, 14th Floor, Suite 1408 Sukhumvit 21 Road (Asoke) Klong Toey Nua, Wattana, Bangkok THAILAND 10110</dd>
               </dl>
               <dl class="contact-list">
-                <dt>email:</dt>
+                <dt>Email:</dt>
                 <dd><a href="mailto:#">vvvv@gmail.com</a></dd>
               </dl>
               <dl class="contact-list">
-                <dt>phones:</dt>
-                <dd><p>050-xxxx-cccc</p>
+                <dt>TEL:</dt>
+                <dd><p>+66 (0)2-118-2817</p>
                 </dd>
               </dl>
 			   
@@ -93,9 +67,7 @@
               <ul class="nav-list">
                 <li><a href="https://www.mapmarketing.co.jp/"target="_blank">Map marketing Japan</a></li>
                 <li><a href="https://www.terramap-asia.com/thai-product/"target="_blank">Terramap Thailand</a></li>
-                <li><a href="#">Test</a></li>
-                <li><a href="#">Test</a></li>
-                <li><a href="#">Test</a></li>
+                
               </ul>
             </div>
           </div>
