@@ -1,4 +1,4 @@
- <?php
+﻿ <?php
 /**
  * The header for our theme
  *
@@ -23,7 +23,7 @@
 <body <?php body_class(); ?>>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="http://localhost/tmt/">
-            <img src="http://localhost/tmt/wp-content/uploads/2020/08/logo.png" height="40px" alt="">
+            <img src="http://localhost/tmt/wp-content/uploads/2020/08/logo.png" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -57,8 +57,8 @@
                         About us
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="http://localhost/tmt/about/">Philosophy</a>
                         <a class="dropdown-item" href="http://localhost/tmt/about/">Profile</a>
+                        <a class="dropdown-item" href="http://localhost/tmt/about/#Philosophy">Philosophy</a>
                         <a class="dropdown-item" href="http://localhost/tmt/about/#ceoMsg">CEO msg.</a>
                         <a class="dropdown-item" href="http://localhost/tmt/about/">History</a>
                         <a class="dropdown-item" href="http://localhost/tmt/about/">Access</a>
@@ -76,16 +76,35 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="http://localhost/tmt/%e0%b8%95%e0%b8%b4%e0%b8%94%e0%b8%95%e0%b9%88%e0%b8%ad%e0%b9%80%e0%b8%a3%e0%b8%b2/">Contact</a>
+                    <a class="nav-link" href="http://localhost/tmt/contact/">Contact</a>
                 </li>
-            </ul>
 
+
+            </ul>
+            <!--lang-->
+                   
         </div>
+         <ul class="navbar-nav mr-auto" style="float:right">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Language
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a href="#th" data-reload>
+                                <img src="http://localhost/tmt/wp-content/uploads/2020/08/thailand.png">
+                            </a>
+                            <a href="#eng" data-reload>
+                                <img src="http://localhost/tmt/wp-content/uploads/2020/08/uk.png">
+                            </a>
+                            <a href="#jp" data-reload>
+                                 <img src="http://localhost/tmt/wp-content/uploads/2020/08/japan.png">
+                            </a>
+                        </div>
+                    </li>
+         </ul>
     </nav>
      <!--banner-->
     <div class="banner">
         <img src="https://www.terramap-asia.com/thai-product/wp-content/themes/terramap/images/map_20190208.jpg" >
     </div>
-    <!-->
-    98d95a9
-    <!-->
+    
